@@ -144,5 +144,18 @@ CREATE TABLE Athletes (
 
 ### 🏁 Conclusion
 
-This project demonstrates end-to-end SQL analytics using SQLite3 as a backend and Python as a mediator.
-It effectively bridges data engineering, analytics, and visualization, making it a strong portfolio project for any data analyst or business intelligence professional.
+This project demonstrates complete end-to-end SQL analytics using SQLite3 as the database engine and Python as the execution and visualization layer, showcasing the full workflow expected in modern data analytics. By integrating multiple Olympic datasets—Athletes, Coaches, Teams, Medals, and Gender Entries—I designed a relational database with proper foreign-key relationships and produced a clean, analysis-ready data model.
+
+Through advanced SQL queries and exploratory analysis, several clear insights emerged:
+
+The United States, China, and Japan dominated in medal performance, with the USA leading both total medals and overall athletic representation.
+
+Team sports like Basketball, Football, and Hockey showed high coach-to-athlete ratios, highlighting greater support requirements.
+
+Medal efficiency analysis revealed that smaller nations such as San Marino and Bermuda had exceptional performance relative to their athlete counts.
+
+Gender distribution showed strong participation in Athletics and Swimming, with discipline-level comparisons uncovering variations in male vs. female representation.
+
+Country-wise discipline participation highlighted how different nations focus on distinct sporting strengths.
+
+Overall, the project effectively bridges data engineering (schema design, ERD creation, database modeling), data analytics (complex joins, aggregations, ratios, performance metrics), and visualization (Python, Seaborn, Graphviz). It showcases my ability to manage structured datasets end-to-end, derive meaningful insights, and present them clearly—making it a strong portfolio piece for data analyst and business intelligence roles.
